@@ -10,3 +10,9 @@ print("Produse disponibile:")
 manager.display_products()
 
 print("\nValoarea totală a inventarului:", manager.total_inventory_value(), "RON")
+
+print("\nȘtergem produsul 'Mouse'...")
+manager.remove_product("Mouse")
+
+print("Produse disponibile după ștergere:")
+manager.display_products()
